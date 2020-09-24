@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F676283251691B700833A76 /* ESLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F676282251691B700833A76 /* ESLoadingViewController.swift */; };
+		6F761F62251BBE42009E5B42 /* ESEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F761F61251BBE42009E5B42 /* ESEmptyView.swift */; };
 		6F80E4202515362300423A4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F80E41F2515362300423A4D /* AppDelegate.swift */; };
 		6F80E4222515362300423A4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F80E4212515362300423A4D /* SceneDelegate.swift */; };
-		6F80E4242515362300423A4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F80E4232515362300423A4D /* ViewController.swift */; };
-		6F80E4272515362300423A4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F80E4252515362300423A4D /* Main.storyboard */; };
+		6F80E4242515362300423A4D /* ScoresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F80E4232515362300423A4D /* ScoresTableViewController.swift */; };
 		6F80E4292515362600423A4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F80E4282515362600423A4D /* Assets.xcassets */; };
 		6F80E42C2515362600423A4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F80E42A2515362600423A4D /* LaunchScreen.storyboard */; };
+		6F80E4342515364A00423A4D /* JsonParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F80E4332515364A00423A4D /* JsonParsing.swift */; };
+		6F80E4362515366D00423A4D /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F80E4352515366D00423A4D /* Helpers.swift */; };
+		6F80E438251536C300423A4D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F80E437251536C300423A4D /* NetworkManager.swift */; };
+		6F80E43A251538EE00423A4D /* ScoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F80E439251538ED00423A4D /* ScoreCell.swift */; };
+		6FB2DF3625190FD7002A3EA9 /* ScheduledGameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB2DF3525190FD7002A3EA9 /* ScheduledGameCell.swift */; };
+		6FF8C94325164B99009A7FEF /* ESLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8C94225164B99009A7FEF /* ESLabel.swift */; };
+		6FF8C9452516530E009A7FEF /* ESTeamLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8C9442516530E009A7FEF /* ESTeamLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F676282251691B700833A76 /* ESLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESLoadingViewController.swift; sourceTree = "<group>"; };
+		6F761F61251BBE42009E5B42 /* ESEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESEmptyView.swift; sourceTree = "<group>"; };
 		6F80E41C2515362300423A4D /* EuroSoccer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EuroSoccer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F80E41F2515362300423A4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F80E4212515362300423A4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6F80E4232515362300423A4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6F80E4262515362300423A4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F80E4232515362300423A4D /* ScoresTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresTableViewController.swift; sourceTree = "<group>"; };
 		6F80E4282515362600423A4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F80E42B2515362600423A4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F80E42D2515362600423A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F80E4332515364A00423A4D /* JsonParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParsing.swift; sourceTree = "<group>"; };
+		6F80E4352515366D00423A4D /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		6F80E437251536C300423A4D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		6F80E439251538ED00423A4D /* ScoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCell.swift; sourceTree = "<group>"; };
+		6FB2DF3525190FD7002A3EA9 /* ScheduledGameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledGameCell.swift; sourceTree = "<group>"; };
+		6FF8C94225164B99009A7FEF /* ESLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESLabel.swift; sourceTree = "<group>"; };
+		6FF8C9442516530E009A7FEF /* ESTeamLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESTeamLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F761F60251BBE30009E5B42 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6F761F61251BBE42009E5B42 /* ESEmptyView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		6F80E4132515362300423A4D = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +80,63 @@
 		6F80E41E2515362300423A4D /* EuroSoccer */ = {
 			isa = PBXGroup;
 			children = (
+				6FDF3376251CF5CC00905CB9 /* Custom */,
 				6F80E41F2515362300423A4D /* AppDelegate.swift */,
 				6F80E4212515362300423A4D /* SceneDelegate.swift */,
-				6F80E4232515362300423A4D /* ViewController.swift */,
-				6F80E4252515362300423A4D /* Main.storyboard */,
+				6FF8C94925165957009A7FEF /* ViewControllers */,
 				6F80E4282515362600423A4D /* Assets.xcassets */,
 				6F80E42A2515362600423A4D /* LaunchScreen.storyboard */,
 				6F80E42D2515362600423A4D /* Info.plist */,
+				6FF8C94725165945009A7FEF /* Network */,
+				6F80E4352515366D00423A4D /* Helpers.swift */,
 			);
 			path = EuroSoccer;
+			sourceTree = "<group>";
+		};
+		6FDF3376251CF5CC00905CB9 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				6F761F60251BBE30009E5B42 /* Views */,
+				6FF8C9482516594F009A7FEF /* Cells */,
+				6FF8C9462516593A009A7FEF /* Labels */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		6FF8C9462516593A009A7FEF /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				6FF8C94225164B99009A7FEF /* ESLabel.swift */,
+				6FF8C9442516530E009A7FEF /* ESTeamLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		6FF8C94725165945009A7FEF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6F80E4332515364A00423A4D /* JsonParsing.swift */,
+				6F80E437251536C300423A4D /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6FF8C9482516594F009A7FEF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6F80E439251538ED00423A4D /* ScoreCell.swift */,
+				6FB2DF3525190FD7002A3EA9 /* ScheduledGameCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6FF8C94925165957009A7FEF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6F80E4232515362300423A4D /* ScoresTableViewController.swift */,
+				6F676282251691B700833A76 /* ESLoadingViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +155,8 @@
 			dependencies = (
 			);
 			name = EuroSoccer;
+			packageProductDependencies = (
+			);
 			productName = EuroSoccer;
 			productReference = 6F80E41C2515362300423A4D /* EuroSoccer.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +185,8 @@
 				Base,
 			);
 			mainGroup = 6F80E4132515362300423A4D;
+			packageReferences = (
+			);
 			productRefGroup = 6F80E41D2515362300423A4D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +203,6 @@
 			files = (
 				6F80E42C2515362600423A4D /* LaunchScreen.storyboard in Resources */,
 				6F80E4292515362600423A4D /* Assets.xcassets in Resources */,
-				6F80E4272515362300423A4D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +213,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F80E4242515362300423A4D /* ViewController.swift in Sources */,
+				6FF8C94325164B99009A7FEF /* ESLabel.swift in Sources */,
+				6FF8C9452516530E009A7FEF /* ESTeamLabel.swift in Sources */,
+				6F80E438251536C300423A4D /* NetworkManager.swift in Sources */,
+				6F80E4242515362300423A4D /* ScoresTableViewController.swift in Sources */,
 				6F80E4202515362300423A4D /* AppDelegate.swift in Sources */,
+				6F80E4342515364A00423A4D /* JsonParsing.swift in Sources */,
+				6FB2DF3625190FD7002A3EA9 /* ScheduledGameCell.swift in Sources */,
+				6F80E43A251538EE00423A4D /* ScoreCell.swift in Sources */,
+				6F80E4362515366D00423A4D /* Helpers.swift in Sources */,
 				6F80E4222515362300423A4D /* SceneDelegate.swift in Sources */,
+				6F761F62251BBE42009E5B42 /* ESEmptyView.swift in Sources */,
+				6F676283251691B700833A76 /* ESLoadingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6F80E4252515362300423A4D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6F80E4262515362300423A4D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6F80E42A2515362600423A4D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
